@@ -1,0 +1,108 @@
+
+footer{
+  background-color: rgb(209, 158, 57);
+  width: 100%;
+  height: 50px;
+ 
+}
+
+        body {
+          width: 1000px;
+            /* border: 5px solid #3498db; */
+        
+            padding: 20px;
+            margin: 20px auto;
+            width: 1340px;
+            font-family: Arial, sans-serif;
+            margin: 4.5px;
+            padding: 10px;
+          
+          }
+         
+          
+          #container{
+            background-color: rgb(230, 241, 241);
+            width: 1339px;
+            height: 600px;
+          }
+       
+
+          header {
+              background-color: #2a4153;
+              color: white;
+              padding: 15px 20px;
+              
+            }
+           
+          #header {
+           
+              text-align: left-center;
+             
+              display: flex;
+          }
+          
+          
+              .navbar{
+                  display: flex;
+                  justify-content: space-between;  
+                  align-items: center;
+              }
+              .nav-links a {
+                   padding: 5px 10px;
+                  
+                  color: rgb(226, 209, 209);
+                }
+                #kenya{
+                  background-color: rgb(206, 202, 197);
+                  color: rgb(19, 8, 8);
+
+                }
+                #kenya img{
+                 
+                  height: 300px;
+                  width: 1000px
+                  
+                
+                }
+                
+                
+                #footer{
+                  background-color: antiquewhite;
+                  width: 100%;
+                  height: 50px;
+                }
+      
+                <!DOCTYPE html>
+                <html lang="en">
+                  <head>
+                    <meta charset="UTF-8" />
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                    <title>Social Media News Page</title>
+                    <link rel="stylesheet" href="styles.css" />
+                  </head>
+                  <body >
+                   <div id="container">
+                    <header>
+                      <nav class="navbar">
+                        <h1><b>NewsFeed</b></h1>
+                        <ul class="nav-links">
+                         
+                       
+                        <a href="index.html">Home</a>
+                        <a href="latestNav.html"> Latest</a>
+                        <a href="trendingNav.html">Trending</a>
+                      </ul>
+                      </nav>
+                    </header>
+                      <div class="main-content">
+                        <div class="first">
+                          <img src="./isreal.jpg" alt="">
+                          <h1>Lorem ipsum dolor sit amet.</h1>
+                          <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, pariatur?</h2>
+                        </div>
+                      </div>
+                      <footer></footer>
+                
+                  </body>
+                </html>
+                

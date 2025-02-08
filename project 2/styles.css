@@ -1,0 +1,220 @@
+/* General Reset */
+body, h1, h2, p, ul, li, div, img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Navbar Styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c3e50;
+  padding: 1rem 2rem;
+}
+
+.navbar .logo {
+  font-size: 2rem;
+  color: #f39c12;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #f39c12;
+}
+
+/* Main Content Styling */
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.main-content .first-content{
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+}
+/* .main-content .first-content .one  {
+  margin-left: -25rem;
+  fon
+} */
+.main-content .first-content .article-one img{
+  /* height: 25rem; */
+  height: 20rem;
+  width: 35rem;
+  margin-top: 15px;
+  margin-bottom: -40px;
+  
+  background-color: white;
+  /* width: 40%; */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.main-content .first-content .article-two img{
+  height: 20rem;
+  width: 35rem;
+  margin-top: -50px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.main-content .first-content .article-three img{
+  height: 20rem;
+  width: 35rem;
+  margin-top: -80px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.main-content .second-content{
+  display: flex;
+  /* text-align: center; */
+  justify-content: center;
+  align-items: center;
+}
+.main-content .second-content .article-four img{
+  height: 20rem;
+  width: 35rem;
+  margin-top: 10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.main-content .second-content .article-five img{
+  height: 20rem;
+  width: 35rem;
+  margin-top: -10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.main-content .second-content .article-six img{
+  height: 20rem;
+  width: 35rem;
+  margin-top: -10px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.article {
+  /* background-color: white; */
+  /* width: 40%; */
+  /* border-radius: 8px; */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  /* overflow: hidden; */
+  /* transition: transform 0.3s ease, box-shadow 0.3s ease; */
+  /* display: flex; */
+  /* flex-direction: column; Ensure column layout */
+}
+
+.article:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.article-image {
+  width: 80%;
+  margin-top: -3px;
+margin-left: 70px;
+  height: 20;
+  object-fit: cover;
+  padding: 20px;
+  transition: transform 0.4s ease;
+}
+
+.article-image:hover {
+  transform: scale(1.1);
+}
+
+.article-text {
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;font-size: 15px;
+  /* max-width: 80%; */
+}
+
+.article h1 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  animation: fadeIn 1s ease;
+  max-width: 50%;
+  margin-left: 20rem;
+}
+
+.article h2 {
+  font-size: 1rem;
+  color: #7f8c8d;
+  margin-top: 0.5rem;
+  animation: slideUp 1s ease;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #2c3e50;
+  color: white;
+  padding: 1rem;
+}
