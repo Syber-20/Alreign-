@@ -60,3 +60,30 @@ button {
 .big-container .third-small .avatar-small p {
   margin-left: 15px;
 }
+
+@media (max-width: 768px){
+  .big-container{
+    width: 45%;
+    box-shadow: none;
+    border-radius: 0px;
+  }
+
+  .big-container .first-small img{
+    width: 70%;
+  }
+
+  .big-container .second-small{
+    font-size: 10px;
+  }
+
+  .big-container .third-small .avatar-small{
+    /* display: flex; */
+    flex-direction: column;
+    margin-left: -4rem;
+    
+  }
+
+  .big-container .third-small .avatar-small p{
+    margin-top: 20px;
+  }
+}

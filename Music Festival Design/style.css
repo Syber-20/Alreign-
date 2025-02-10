@@ -79,3 +79,39 @@ body {
   margin-top: 30px;
   opacity: 0.8;
 }
+
+/* For tablets (screen widths 768px and below) */
+@media (max-width: 768px) {
+  .music-container {
+    width: 80%; /* Make container width responsive */
+  }
+
+  .music-container .festival img {
+    width: 100%; /* Adjust image width */
+  }
+
+  .music-container .over-rall button {
+    width: 100%; /* Full width for button on small screens */
+  }
+}
+
+/* For mobile phones (screen widths 480px and below) */
+@media (max-width: 480px) {
+  .music-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .music-container .over-rall h2 {
+    font-size: 14px; /* Smaller font for text on mobile */
+  }
+
+  .music-container .over-rall .middle-div {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start;
+  }
+
+  .music-container .over-rall .middle-div .special-text {
+    margin: 10px 0 0 0;
+  }
+}
